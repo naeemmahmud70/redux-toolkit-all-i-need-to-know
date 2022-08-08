@@ -14,6 +14,7 @@ const JsonAPIUsers = () => {
 
   return (
     <div className="mt-5 shadow rounded p-3">
+      <h2 className="my-4">Integrate Redux with Rest APIs.</h2>
       {users.map((user, index) => (
         <div key={user.id} className="d-flex mt-1">
           <h5 className="fw-bold">{index + 1}. </h5>

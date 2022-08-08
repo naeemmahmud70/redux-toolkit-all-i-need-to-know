@@ -29,7 +29,7 @@ const CreatingObject = () => {
   };
   return (
     <div className="p-3 shadow rounded">
-      <h4>Create Objects</h4>
+      <h4>Create Array of Objects</h4>
       <form action="">
         <div className="form-group">
           <input

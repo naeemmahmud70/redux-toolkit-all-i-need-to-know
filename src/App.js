@@ -8,21 +8,22 @@ import ToggleStatus from "./components/ToggleStatus/ToggleStatus";
 
 function App() {
   return (
-   <div className="bg-light">
-      <div className="container pt-5">
-      <div className="row">
-        <div className="col-md-6">
-          <Counter></Counter>
-          <MultiplyCounter></MultiplyCounter>
-          <ToggleStatus></ToggleStatus>
-          <JsonAPIUsers></JsonAPIUsers>
-        </div>
-        <div className="col-md-6">
-          <CreatingObject></CreatingObject>
+    <div className="bg-light">
+      <div className="container py-4">
+        <h1 className="text-center text-secondary fw-bold">Playing with Redux-toolkit.</h1>
+        <div className="row mt-4">
+          <div className="col-md-6">
+            <Counter></Counter>
+            <MultiplyCounter></MultiplyCounter>
+            <ToggleStatus></ToggleStatus>
+            <JsonAPIUsers></JsonAPIUsers>
+          </div>
+          <div className="col-md-6">
+            <CreatingObject></CreatingObject>
+          </div>
         </div>
       </div>
     </div>
-   </div>
   );
 }
 
