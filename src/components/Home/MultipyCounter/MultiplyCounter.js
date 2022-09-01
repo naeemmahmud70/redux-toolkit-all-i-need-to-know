@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import {
   incrementByAmount,
   decrementByAmount,
-} from "../../Redux/Slices/multiplyCounterSlice";
+} from "../../../Redux/Slices/multiplyCounterSlice";
 
 const MultiplyCounter = () => {
   const multipleNumber = useSelector((state) => state.multiplyCounter.value);

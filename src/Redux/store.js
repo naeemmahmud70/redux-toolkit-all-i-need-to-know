@@ -1,4 +1,4 @@
-import { configureStore } from "@reduxjs/toolkit";
+import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
 import counterSlice from "./Slices/counterSlice";
 import creatingObjectArraySlice from "./Slices/creatingObjectArraySlice";
 import creatingObjectSlice from "./Slices/creatingObjectSlice";
@@ -15,4 +15,7 @@ export const store = configureStore({
     createdObject: creatingObjectSlice,
     createdObjectArray: creatingObjectArraySlice,
   },
-});
+  
+  middleware: [...getDefaultMiddleware()],
+}
+);

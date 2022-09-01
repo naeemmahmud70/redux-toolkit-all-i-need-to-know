@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { setObject } from "../../Redux/Slices/creatingObjectSlice";
-import { setInObjectArray } from "../../Redux/Slices/creatingObjectArraySlice";
+import { setObject } from "../../../Redux/Slices/creatingObjectSlice";
+import { setInObjectArray } from "../../../Redux/Slices/creatingObjectArraySlice";
 
 const CreatingObject = () => {
   const user = useSelector((state) => state.createdObject.user);

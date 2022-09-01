@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { active, inactive } from "../../Redux/Slices/toggleStatusSlice";
+import { active, inactive } from "../../../Redux/Slices/toggleStatusSlice";
 
 const ToggleStatus = () => {
   const status = useSelector((state) => state.toggleStatus.status);
